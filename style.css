@@ -1,0 +1,10 @@
+:root {
+  --hdr-gradient: conic-gradient(
+    at top left in oklch,
+    oklch(75% 0.5 156) 5% 2%,
+    oklch(70% 0.5 261) 78% 89%
+  );
+  --sdr-gradient: conic-gradient( at top left, #00f600 5% 2%, #0003ff 78% 89%);
+
+  background: var(--hdr-gradient);
+}
