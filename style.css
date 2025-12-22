@@ -1,5 +1,71 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Google Sans", sans-serif;
+  background-image: url(./mt-kenya.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: #333;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+ 
+  flex-direction: column;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.705);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.217);
+  max-width: 500px;
+  margin-top: 3rem;
+}
+h1 {
+  margin: 1rem 0;
+  color: whitesmoke;
+  
+}
+.response {
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  min-height: 50px;
+  font-family: "Google Sans", sans-serif;
+  border-left: 2px solid white;
+}
+button {
+  background: linear-gradient(90deg, #131b14, #05670a);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin: 1rem auto;
+  transition: all 200ms ease-in-out;
+  font-weight: 500;
+  font-family: "Google Sans", sans-serif;
+  display: block;
+  
+}
+
+button:hover {
+  background: linear-gradient(90deg, #05670a, #131b14);
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  font-size: 0.6rem;
+  color: white;
+  font-family: "Google Sans", sans-serif;
+  margin-top: 1rem;
 }
