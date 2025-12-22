@@ -18,7 +18,7 @@ body {
   flex-direction: column;
 }
 .container {
-  background-color: rgba(0, 0, 0, 0.705);
+  background-color: rgba(0, 0, 0, 0.447);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,5 +67,11 @@ footer {
   font-size: 0.6rem;
   color: white;
   font-family: "Google Sans", sans-serif;
-  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #7b7b7b;
+  width: 100%;
+}
+footer a {
+  color: #90ee90;
+  text-decoration: none;
 }
