@@ -7,7 +7,10 @@
 }
 body {
   font-family: "Google Sans", sans-serif;
-  background-color: #cbf7cd;
+  background:url(./mt-kenya.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
   color: #333;
   display: flex;
@@ -18,7 +21,7 @@ body {
   
 }
 .container {
-  background-color: rgba(0, 0, 0, 0.447);
+  background:rgba(0, 0, 0, 0.452);
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.217);
@@ -28,11 +31,11 @@ body {
 }
 h1 {
   margin: 1rem 0;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 .response {
-  color: rgba(252, 252, 252, 0.747);
+  color: rgba(233, 230, 230, 0.747);
   font-size: 1rem;
   display: none;
   min-height: 50px;
@@ -72,7 +75,7 @@ button:active {
 footer {
   text-align: center;
   font-size: 0.6rem;
-  color: white;
+  color: rgb(146, 146, 146);
   font-family: "Google Sans", sans-serif;
   padding-top: 1rem;
   border-top: 1px solid #7b7b7b;
