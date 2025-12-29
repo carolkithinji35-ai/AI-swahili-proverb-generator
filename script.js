@@ -15,7 +15,7 @@ function getProverb(response) {
 function generateProverb(event) {
   event.preventDefault();
   let proverbs = document.querySelector(".response");
-  proverbs.innerHTML = "Generating a Swahili proverb... Please wait.";
+  proverbs.innerHTML = "⏳Generating a Swahili proverb...";
   proverbs.classList.add("show");
 
   const apiKey = "568925f93ofcc31043b0b8154ebt149a";
