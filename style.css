@@ -88,7 +88,15 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+.blink {
+  animation: blinker 1s step-start infinite;
+}
 
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 @media (max-width: 600px) {
   .container {
     width: 100%;
