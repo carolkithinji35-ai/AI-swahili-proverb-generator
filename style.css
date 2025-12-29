@@ -13,36 +13,40 @@ body {
   height: 100vh;
   color: #333;
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 1rem;
 
-  flex-direction: column;
+  
 }
 .container {
   background-color: rgba(0, 0, 0, 0.447);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.217);
-  max-width: 600px;
+  width: 600px;
   margin-top: 3rem;
-  gap: 1rem;
+  
 }
 h1 {
   margin: 1rem 0;
   color: whitesmoke;
+  text-align: center;
 }
 .response {
- 
-  color: white;
+  color: rgba(252, 252, 252, 0.797);
   font-size: 1rem;
-  text-align: center;
+  display: none;
   min-height: 50px;
   font-family: "Google Sans", sans-serif;
-  border-left: 2px solid white;
+  border-left: 2px solid #034d07;
   padding: 1rem;
+  border-radius: 5px;
+  font-style: italic;
+}
+.response.show {
+  display: block;
+  
 }
 button {
   background: linear-gradient(90deg, #131b14, #05670a);
@@ -54,6 +58,7 @@ button {
   font-size: 0.8rem;
   margin: 1.5rem auto 0.8rem auto;
   transition: all 200ms ease-in-out;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   font-weight: 500;
   font-family: "Google Sans", sans-serif;
   display: block;
@@ -62,6 +67,9 @@ button {
 button:hover {
   background: linear-gradient(90deg, #05670a, #131b14);
   cursor: pointer;
+}
+button:active {
+  background: linear-gradient(90deg, #0d120e, #034d07);
 }
 footer {
   text-align: center;
@@ -83,8 +91,5 @@ footer a:hover {
   .container {
     width: 100%;
     padding: 0.5rem;
-  }
-  button {
-    width: 100%;
   }
 }
