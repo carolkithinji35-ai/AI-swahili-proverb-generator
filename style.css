@@ -88,6 +88,7 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
 @media (max-width: 600px) {
   .container {
     width: 100%;
