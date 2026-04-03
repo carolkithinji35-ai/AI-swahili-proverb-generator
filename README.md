@@ -1,10 +1,11 @@
 # AI Swahili Proverb Generator
 
 ## 🚀 About the Project
-This project generates meaningful Swahili proverbs using AI based on user input themes.
+This application automatically generates Swahili proverbs using AI.
+It does not require user input — it generates proverbs instantly.
 
 ## 🧠 Why I built it
-To explore how AI can be used to create culturally relevant language content and improve creative expression in Swahili.
+To explore how AI can generate culturally meaningful Swahili expressions and creative language content.
 
 ## 🛠️ Tech Stack
 - HTML
