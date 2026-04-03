@@ -10,6 +10,7 @@ To explore how AI can be used to create culturally relevant language content and
 - HTML
 - CSS
 - JavaScript
+- AI API
 
 ## ✨ Features
 - Generates AI-powered Swahili proverbs
