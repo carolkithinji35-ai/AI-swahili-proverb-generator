@@ -11,7 +11,7 @@ To explore how AI can generate culturally meaningful Swahili expressions and cre
 
 ## 📸 Preview
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4c697d41-efbe-4b4d-b685-578e8a91a015" width="700"/>
+<img width="1570" height="776" alt="swahili proverb generator" src="https://github.com/user-attachments/assets/598be886-d595-45a2-ac58-a2bf7fa5fa2f" />
 </p>
 
 ## 🔗 Live Demo
